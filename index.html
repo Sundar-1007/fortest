@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vilansec</title>
+
+    <!-- BOOTSTRAP CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font-awesome css cdn  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- carousel css cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- scroll animate css cdn -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+</head>
+
+<body>
+
+
+    <header data-aos="fade-down" data-aos-duration="500">
+        <div class="container-fluid">
+            <nav class=" navbar d-flex justify-content-between align-items-center py-lg-4 px-lg-5 px-4">
+                <div class="navbar-mobile-holder-1 col-12 col-lg">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="box d-lg-none">
+                            <div class="iconbtn not-active">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="navbar-brand m-0">
+                            <a href="index.html" class="logo">vilansec <span class="dot">.</span></a>
+                        </div>
+                        <div class="search-box d-lg-none">
+                            <i class="fa-solid fa-magnifying-glass search" style="color: #ffffff;"></i>
+                            <i class="fa-solid fa-xmark cancel" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="search-container">
+                            <div class="search-inp">
+                                <div>
+                                    <input type="search" name="search" id="search" placeholder="search..">
+                                    <i class="fa-solid fa-magnifying-glass search" style="color: #000000;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-lg-flex align-items-center nav-link-holder col-lg">
+                    <div class="navbar-overflow"></div>
+                    <div class="nav-links-container d-lg-flex align-items-center h-100">
+                        <div class="box d-lg-none">
+                            <div class="iconbtn not-active">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="navbar-brand d-lg-none">
+                            <a href="index.html" class="logo">vilansec <span class="dot">.</span></a>
+                        </div>
+                        <a href="index.html" class="nav-link active h-lg-100 d-flex align-items-center">Home</a>
+                        <a href="single.html" class="nav-link h-lg-100 d-flex align-items-center">Single</a>
+                        <a href="index.html" class="nav-link h-lg-100 d-flex align-items-center">Blog</a>
+                        <a href="index.html" class="nav-link h-lg-100 d-flex align-items-center">Contact</a>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center nav-link-holder col-lg justify-content-end d-none d-lg-flex">
+                    <a href="tel:3456789" class="link-2">+367 37732789</a>
+                    <a href="index.html" class="vilansec-btn1">Contact Us</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-banner position-relative">
+        <div class="container">
+            <div class="vector-holder">
+                <img src="images/vectors/beveled-cube.png" alt="hovervector" data-aos="zoom-in" data-aos-duration="700">
+            </div>
+            <div class="vector-holder vector-holder-1">
+                <img src="images/vectors/beveled-cone.png" alt="hovervector" data-aos="zoom-in" data-aos-duration="700">
+            </div>
+            <div class="row gx-3 align-items-center">
+                <div class="col-md-6 order-2 order-md-1 text-center text-md-start">
+                    <div class="bg-font-holder">
+                        <p class="bg-font" data-aos="fade-right" data-aos-duration="1000">Digital</p>
+                    </div>
+                    <div class="left-sec position-relative">
+                        <h1 class="primary-header mb-3" data-aos="fade-up" data-aos-duration="700">
+                            Measurable & Effrctive results for customers <div class="dot d-inline">.</div>
+                        </h1>
+                        <p class="hero-text" data-aos="fade-up" data-aos-duration="700">
+                            Your business from creative idea to launching
+                            <span class="hero-border my-5"></span>
+                        </p>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row align-items-lg-center">
+                        <a href="index.html" class="vilansec-btn2 mb-3 mb-lg-0 mx-auto mx-md-0" data-aos="fade-right" data-aos-duration="1000">Get Started</a>
+                        <a href="#" class="link-1 p-0 px-lg-3" data-aos="fade-left" data-aos-duration="1000">
+                            <img src="images/icons/telegram-1.png" class="telegram-icon" alt="telegram-icon">
+                            Join us our Telgram</a>
+                    </div>
+                </div>
+                <div class="col-md-6 order-1">
+                    <img src="images/api-programming.png" alt="backgroundimages"  data-aos="zoom-in" data-aos-duration="1000">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-info-card overflow-visible" data-aos="fade-up" data-aos-duration="500">
+        <div class="container px-4 px-md-0">
+            <div class="main-info-card-holder px-lg-5 mx-2 mx-md-0">
+                <div class="row g-md-5 justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-12 m-0">
+                        <div class="card border-0 position-relative" data-aos="fade-up" data-aos-duration="500">
+                            <div class="card-spliter d-none d-md-block"></div>
+                            <img src="https://wgl-demo.net/zeptech/wp-content/uploads/elementor/thumbs/credit-card-1-pbslqqe9jk1vj2q91wpyh3nfu72maa0h94gxn84oww.jpg"
+                                class="card-img-top" alt="cardimage">
+                            <div class="card-body text-center mb-3">
+                                <h5 class="card-title">DIGITAL SOLUTIONS</h5>
+                                <p class="card-text">We want to bring a splash of colour into a see mingly grey world
+                                    and become</p>
+                                <a href="#" class="link-2 card-link"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 m-0">
+                        <div class="card border-0 position-relative" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="card-spliter d-none d-lg-block"></div>
+                            <img src="https://wgl-demo.net/zeptech/wp-content/uploads/elementor/thumbs/online-payment-pbskhwhclxnhs23g72ldxdz3wr7yn3zd9jy5na29wg.jpg"
+                                class="card-img-top" alt="cardimage">
+                            <div class="card-body text-center mb-3">
+                                <h5 class="card-title">SMART EXPERIENCE</h5>
+                                <p class="card-text">We want to bring a splash of colour into a see mingly grey world
+                                    and become</p>
+                                <a href="#" class="link-2 card-link"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 m-0">
+                        <div class="card border-0" data-aos="fade-up" data-aos-duration="1500">
+                            <img src="https://wgl-demo.net/zeptech/wp-content/uploads/elementor/thumbs/golden-coin-holding-pbskiecawcg9yc9hg8ygi44cj4iqsu44ne94yrm1js.jpg"
+                                class="card-img-top" alt="cardimage">
+                            <div class="card-body text-center mb-3">
+                                <h5 class="card-title">RESULTS WITH PROFIT</h5>
+                                <p class="card-text">We want to bring a splash of colour into a see mingly grey world
+                                    and become</p>
+                                <a href="#" class="link-2 card-link"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row g-md-5 align-items-center px-4 px-md-0">
+                <div class="col-lg-7">
+                    <div class="bgimage-holder" data-aos="zoom-in" data-aos-duration="1000">
+                        <img src="images/7121192.png" alt="backgroundimage">
+                    </div>
+                </div>
+                <div class="col-lg-5 position-relative">
+                    <div class="bg-font-holder" data-aos="fade-right" data-aos-duration="1000">
+                        <p class="bg-font2">Why</p>
+                    </div>
+                    <h1 class="secondary-header d-inline-block mb-3 position-relative" data-aos="fade-up" data-aos-duration="500">WE HELP BUSINESS GROWING UP <div
+                            class="dot d-inline">.
+                        </div>
+                    </h1>
+                    <p class="primary-text mb-4" data-aos="fade-up" data-aos-duration="700">Personalization assumed up an excess of position in the showcasing
+                        space and
+                        has made each and every one of your messages exhausting and without feelings.</p>
+                    <div class="para-holder"  data-aos="fade-up" data-aos-duration="1000">
+                        <div class="d-flex mb-3 align-items-center">
+                            <i class="fa-solid fa-check me-3" style="color: #ffffff;"></i>
+                            <p class="primary-text m-0">Creating a great digital experience</p>
+                        </div>
+                        <div class="d-flex mb-3 align-items-center">
+                            <i class="fa-solid fa-check me-3" style="color: #ffffff;"></i>
+                            <p class="primary-text m-0">Creating a great digital experience</p>
+                        </div>
+                        <div class="d-flex mb-3 align-items-center">
+                            <i class="fa-solid fa-check me-3" style="color: #ffffff;"></i>
+                            <p class="primary-text m-0">Creating a great digital experience</p>
+                        </div>
+                        <div class="d-flex mb-3 align-items-center">
+                            <i class="fa-solid fa-check me-3" style="color: #ffffff;"></i>
+                            <p class="primary-text m-0">Creating a great digital experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row g-md-5 align-items-center px-4 px-md-0">
+                <div class="col-md-6 order-lg-1 order-2 position-relative">
+                    <div class="bg-font-holder">
+                        <p class="bg-font2" data-aos="fade-right" data-aos-duration="1000">About</p>
+                    </div>
+                    <h1 class="secondary-header d-inline-block mb-3 position-relative" data-aos="fade-up" data-aos-duration="500">ENRICH YOUR DESIGN WORKFLOW
+                        <div class="dot d-inline">.</div>
+                    </h1>
+                    <p class="primary-text mb-5" data-aos="fade-up" data-aos-duration="700">This is the main factor that sets us apart from our competition and
+                        allows us to deliver a specialist business consultancy service. Our team applies its
+                        wide-ranging experience to determining the strategies that will best enable our clients to
+                        achieve clear, long-term objectives.</p>
+                    <a href="index.html" data-aos="fade-up" data-aos-duration="1000" class="vilansec-btn1">Contact Us</a>
+                </div>
+                <div class="col-md-6 order-1">
+                    <div class="bgimage-holder">
+                        <img src="images/26764945_2109.i301.021.S.m004.c13.Business lady isometric composition.jpg"
+                            alt="backgroundimage" data-aos="zoom-in" data-aos-duration="1000">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="position-relative blue-card">
+        <div class="vector-holder vector-holder-1" data-aos="zoom-in" data-aos-duration="500">
+            <img src="images/vectors/user-calendar.png" alt="vector-image">
+        </div>
+        <section class="container px-4 px-md-0 m-lg-0">
+            <div class="counters text-white text-center bg-primary">
+                <div class="row" data-aos="fade-up" data-aos-duration="500">
+                    <div class="col-md-6 col-lg-3">
+                        <h1 class="tertary-heading">15<span>+</span></h1>
+                        <p class="quaternary-heading">YEARS OF EXPERIENCE</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h1 class="tertary-heading">15<span>+</span></h1>
+                        <p class="quaternary-heading">YEARS OF EXPERIENCE</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h1 class="tertary-heading">15<span>+</span></h1>
+                        <p class="quaternary-heading">YEARS OF EXPERIENCE</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h1 class="tertary-heading">15<span>+</span></h1>
+                        <p class="quaternary-heading">YEARS OF EXPERIENCE</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="bg-secondary">
+            <div class="container px-4 px-md-0">
+                <div class="row g-md-5 align-items-end mb-md-5 ">
+                    <div class="col-md-7">
+                        <div class="bg-font-holder" data-aos="fade-right" data-aos-duration="1000">
+                            <p class="bg-font">Digital</p>
+                        </div>
+                        <h1 class="secondary-header position-relative" data-aos="fade-up" data-aos-duration="700">GET YOUR IDEAL WEB DEVELOPMENT SOLUTION</h1>
+                    </div>
+                    <div class="col-md-5">
+                        <a href="index.html" class="vilansec-btn1" data-aos="fade-up" data-aos-duration="700">All Services</a>
+                    </div>
+                </div>
+                <div class="row g-md-5">
+                    <div class="col-lg-3 col-md-6 mt-4 mt-md-5">
+                        <div class="card border-0 position-relative p-4 card-bg-color" data-aos="fade-up" data-aos-duration="500">
+                            <div class="card-body mb-3">
+                                <h5 class="card-title card-no">01</h5>
+                                <h5 class="card-title">PRODUCT DEVELOPMENT​</h5>
+                                <p class="card-text">We want to bring a splash of colour into a see mingly grey world
+                                    and
+                                    become</p>
+                                <a href="#" class="link-2 card-link p-0"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-md-5">
+                        <div class="card border-0 position-relative p-4 card-bg-color" data-aos="fade-up" data-aos-duration="700">
+                            <div class="card-body mb-3">
+                                <h5 class="card-title card-no">02</h5>
+                                <h5 class="card-title">BIG DATA & INNOVATIONS</h5>
+                                <p class="card-text">We want to bring a splash of colour into a see mingly grey world
+                                    and
+                                    become</p>
+                                <a href="#" class="link-2 card-link p-0"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-md-5">
+                        <div class="card border-0 position-relative p-4 card-bg-color" data-aos="fade-up" data-aos-duration="900">
+                            <div class="card-body mb-3">
+                                <h5 class="card-title card-no">03</h5>
+                                <h5 class="card-title">UI/UX STRATEGY​</h5>
+                                <p class="card-text">We want to bring a splash of colour into a see mingly grey world
+                                    and
+                                    become</p>
+                                <a href="#" class="link-2 card-link p-0"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-md-5">
+                        <div class="card border-0 position-relative p-4 card-bg-color" data-aos="fade-up" data-aos-duration="1100">
+                            <div class="card-body mb-3">
+                                <h5 class="card-title card-no">04</h5>
+                                <h5 class="card-title">BRAND DEVELOPMENT​</h5>
+                                <p class="card-text">We want to bring a splash of colour into a see mingly grey world
+                                    and
+                                    become</p>
+                                <a href="#" class="link-2 card-link p-0"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-md-5">
+                        <div class="card border-0 position-relative p-4 card-bg-color" data-aos="fade-up" data-aos-duration="500">
+                            <div class="card-body mb-3">
+                                <h5 class="card-title card-no">05</h5>
+                                <h5 class="card-title">Digital Marketing</h5>
+                                <p class="card-text">We want to bring a splash of colour into a see mingly grey world
+                                    and
+                                    become</p>
+                                <a href="#" class="link-2 card-link p-0"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-md-5">
+                        <div class="card border-0 position-relative p-4 card-bg-color" data-aos="fade-up" data-aos-duration="700">
+                            <div class="card-body mb-3">
+                                <h5 class="card-title card-no">06</h5>
+                                <h5 class="card-title">corporate identity</h5>
+                                <p class="card-text">We want to bring a splash of colour into a see mingly grey world
+                                    and
+                                    become</p>
+                                <a href="#" class="link-2 card-link p-0"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-md-5">
+                        <div class="card border-0 position-relative p-4 card-bg-color" data-aos="fade-up" data-aos-duration="900">
+                            <div class="card-body mb-3">
+                                <h5 class="card-title card-no">07</h5>
+                                <h5 class="card-title">content management</h5>
+                                <p class="card-text">We want to bring a splash of colour into a see mingly grey world
+                                    and
+                                    become</p>
+                                <a href="#" class="link-2 card-link p-0"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-md-5">
+                        <div class="card border-0 position-relative p-4 card-bg-color" data-aos="fade-up" data-aos-duration="1100">
+                            <div class="card-body mb-3">
+                                <h5 class="card-title card-no">08</h5>
+                                <h5 class="card-title">stream procesing</h5>
+                                <p class="card-text">We want to bring a splash of colour into a see mingly grey world
+                                    and
+                                    become</p>
+                                <a href="#" class="link-2 card-link p-0"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="details px-4 px-md-0">
+        <div class="container">
+            <div class="first-sec">
+                <div class="bg-font-holder" data-aos="fade-right" data-aos-duration="1000">
+                    <p class="bg-font2">Strategy</p>
+                </div>
+                <h1 class="secondary-header d-inline-block mb-3 position-relative" data-aos="fade-up" data-aos-duration="500">A QUALITY DIGITAL EXPERIENCE FOR
+                    EVERYONE</h1>
+            </div>
+        </div>
+        <div class="details-sec container position-relative" data-aos="zoom-in" data-aos-duration="100">
+            <div class="row">
+                <div class="col-lg-4 left-sec">
+                    <div class="card border-0 mb-5" data-aos="fade-left" data-aos-duration="500">
+                        <div class="d-flex">
+                            <div class="card-icon p-3">
+                                <img src="images/icons/secure-shield.png" alt="">
+                            </div>
+                            <div class="card-body px-2 py-4">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-5" data-aos="fade-left" data-aos-duration="700">
+                        <div class="d-flex">
+                            <div class="card-icon p-3">
+                                <img src="images/icons/secure-shield.png" alt="">
+                            </div>
+                            <div class="card-body px-2 py-4">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-5" data-aos="fade-left" data-aos-duration="900">
+                        <div class="d-flex">
+                            <div class="card-icon p-3">
+                                <img src="images/icons/secure-shield.png" alt="">
+                            </div>
+                            <div class="card-body px-2 py-4">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="images/sit-removebg-preview.png"  data-aos="zoom-in" data-aos-duration="500" class="d-lg-none" alt="">
+                </div>
+
+                <div class="col-lg-4 right-sec">
+                    <div class="card border-0 mb-5" data-aos="fade-right" data-aos-duration="500">
+                        <div class="d-flex">
+                            <div class="card-icon p-3">
+                                <img src="images/icons/secure-shield.png" alt="">
+                            </div>
+                            <div class="card-body px-2 py-4">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-5" data-aos="fade-right" data-aos-duration="700">
+                        <div class="d-flex">
+                            <div class="card-icon p-3">
+                                <img src="images/icons/secure-shield.png" alt="">
+                            </div>
+                            <div class="card-body px-2 py-4">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-5" data-aos="fade-right" data-aos-duration="900">
+                        <div class="d-flex">
+                            <div class="card-icon p-3">
+                                <img src="images/icons/secure-shield.png" alt="">
+                            </div>
+                            <div class="card-body px-2 py-4">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="container">
+                <h1 class="quaternary-heading text-center mb-5"  data-aos="fade-up" data-aos-duration="500">Join the 200+ companies trusting vilansec company</h1>
+
+                <div class="owl-carousel" data-aos="zoom-in" data-aos-duration="1000">
+                    <div><img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/brand-1-1.png">
+                    </div>
+                    <div><img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/brand-2-1.png">
+                    </div>
+                    <div><img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/brand-5-1.png">
+                    </div>
+                    <div><img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/brand-4-1.png">
+                    </div>
+                    <div><img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/brand-3-1.png">
+                    </div>
+                    <div><img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/brand-6-1.png">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-tertary position-relative mb-0">
+        <div class="container">
+            <div class="row g-md-5 align-items-center px-4 px-md-0">
+                <div class="col-md-6 order-lg-1 order-2 position-relative">
+                    <div class="bg-font-holder" data-aos="fade-right" data-aos-duration="1000">
+                        <p class="bg-font3">quality</p>
+                    </div>
+                    <h1 class="secondary-header d-inline-block mb-3 position-relative text-white" data-aos="fade-up" data-aos-duration="500">DIGITAL SERVICES FOR
+                        YOUR NEEDS
+                        <div class="dot d-inline">.</div>
+                    </h1>
+                    <p class="primary-text mb-5 text-white" data-aos="fade-up" data-aos-duration="700">Are you ready to grow your business to new levels through
+                        the Internet? Check out the stats on our performance and take a look at testimonials.</p>
+                    <a href="index.html" class="vilansec-btn1" data-aos="fade-up" data-aos-duration="1000">Contact Us</a>
+                </div>
+                <div class="col-md-6 order-1 position-relative">
+                    <div class="vector-holder">
+                        <img src="images/vectors/rupee.png" alt="" data-aos="zoom-in" data-aos-duration="1000">
+                    </div>
+                    <div class="bgimage-holder">
+                        <img src="images/money.png" alt="backgroundimage" data-aos="zoom-in" data-aos-duration="1000">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-0 position-relative">
+        <div class="bg-secondary bg-secondary2">
+            <div class="container px-4 px-md-0">
+                <div class="row g-md-5 align-items-end mb-5 ">
+                    <div class="col-md-6">
+                        <div class="bg-font-holder" data-aos="fade-right" data-aos-duration="1000">
+                            <p class="bg-font">read blog</p>
+                        </div>
+                        <h1 class="secondary-header position-relative" data-aos="fade-up" data-aos-duration="500">STAY INFORMED
+                            ON OUR LATEST NEWS</h1>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="index.html" class="vilansec-btn1 ms-md-auto" data-aos="fade-up" data-aos-duration="500">All Services</a>
+                    </div>
+                </div>
+                <!-- <div class="row g-md-5 justify-content-center px-sm-5">
+                    <div class="col-lg-4 col-md-6 mt-4 mt-md-5">
+                        <div class="card border-0 position-relative p-0 bg-transparent"  data-aos="fade-up" data-aos-duration="500">
+                            <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/blog_01-742x742.jpg"
+                                class="card-img-top m-0 w-100 rounded-4" alt="...">
+                            <div class="card-body mb-3">
+                                <div class="d-flex">
+                                    <p class="card-text text-white me-3"><i class="fa-solid fa-calendar-days"
+                                            style="color: #43d9b3;"></i>
+                                        july 21 2022
+                                    </p>
+                                    <p class="card-text text-white"><i class="fa-regular fa-circle-user"
+                                            style="color: #43d9b3;"></i> by lina grey</p>
+                                </div>
+                                <h5 class="card-title">BEST 15 SECRETS OF DIGITAL TRANSFORMS</h5>
+                                <a href="#" class="link-2 card-link p-0"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-4 mt-md-5">
+                        <div class="card border-0 position-relative p-0 bg-transparent" data-aos="fade-up" data-aos-duration="800">
+                            <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/08/woman-experiencing-vr-742x742.jpg"
+                                class="card-img-top m-0 w-100 rounded-4" alt="...">
+                            <div class="card-body mb-3">
+                                <div class="d-flex">
+                                    <p class="card-text text-white me-3"><i class="fa-solid fa-calendar-days"
+                                            style="color: #43d9b3;"></i>
+                                        july 21 2022
+                                    </p>
+                                    <p class="card-text text-white"><i class="fa-regular fa-circle-user"
+                                            style="color: #43d9b3;"></i> by lina grey</p>
+                                </div>
+                                <h5 class="card-title">BEST 15 SECRETS OF DIGITAL TRANSFORMS</h5>
+                                <a href="#" class="link-2 card-link p-0"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-4 mt-md-5">
+                        <div class="card border-0 position-relative p-0 bg-transparent" data-aos="fade-up" data-aos-duration="1100">
+                            <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/08/behar-zenuni-742x742.jpg"
+                                class="card-img-top m-0 w-100 rounded-4" alt="...">
+                            <div class="card-body mb-3">
+                                <div class="d-flex">
+                                    <p class="card-text text-white me-3"><i class="fa-solid fa-calendar-days"
+                                            style="color: #43d9b3;"></i>
+                                        july 21 2022
+                                    </p>
+                                    <p class="card-text text-white"><i class="fa-regular fa-circle-user"
+                                            style="color: #43d9b3;"></i> by lina grey</p>
+                                </div>
+                                <h5 class="card-title">BEST 15 SECRETS OF DIGITAL TRANSFORMS</h5>
+                                <a href="#" class="link-2 card-link p-0"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="owl-carousel2" style="overflow: hidden;">
+                    <div>
+                        <div class="card border-0 position-relative p-0 bg-transparent" data-aos="fade-up" data-aos-duration="1100">
+                            <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/08/behar-zenuni-742x742.jpg"
+                                class="card-img-top m-0 w-100 rounded-4" alt="...">
+                            <div class="card-body mb-3">
+                                <div class="d-flex">
+                                    <p class="card-text text-white me-3"><i class="fa-solid fa-calendar-days"
+                                            style="color: #43d9b3;"></i>
+                                        july 21 2022
+                                    </p>
+                                    <p class="card-text text-white"><i class="fa-regular fa-circle-user"
+                                            style="color: #43d9b3;"></i> by lina grey</p>
+                                </div>
+                                <h5 class="card-title">BEST 15 SECRETS OF DIGITAL TRANSFORMS</h5>
+                                <a href="#" class="link-2 card-link p-0"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card border-0 position-relative p-0 bg-transparent" data-aos="fade-up" data-aos-duration="1100">
+                            <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/08/woman-experiencing-vr-742x742.jpg"
+                                class="card-img-top m-0 w-100 rounded-4" alt="...">
+                            <div class="card-body mb-3">
+                                <div class="d-flex">
+                                    <p class="card-text text-white me-3"><i class="fa-solid fa-calendar-days"
+                                            style="color: #43d9b3;"></i>
+                                        july 21 2022
+                                    </p>
+                                    <p class="card-text text-white"><i class="fa-regular fa-circle-user"
+                                            style="color: #43d9b3;"></i> by lina grey</p>
+                                </div>
+                                <h5 class="card-title">BEST 15 SECRETS OF DIGITAL TRANSFORMS</h5>
+                                <a href="#" class="link-2 card-link p-0"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card border-0 position-relative p-0 bg-transparent" data-aos="fade-up" data-aos-duration="1100">
+                            <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/blog_01-742x742.jpg"
+                                class="card-img-top m-0 w-100 rounded-4" alt="...">
+                            <div class="card-body mb-3">
+                                <div class="d-flex">
+                                    <p class="card-text text-white me-3"><i class="fa-solid fa-calendar-days"
+                                            style="color: #43d9b3;"></i>
+                                        july 21 2022
+                                    </p>
+                                    <p class="card-text text-white"><i class="fa-regular fa-circle-user"
+                                            style="color: #43d9b3;"></i> by lina grey</p>
+                                </div>
+                                <h5 class="card-title">BEST 15 SECRETS OF DIGITAL TRANSFORMS</h5>
+                                <a href="#" class="link-2 card-link p-0"><i class="fa-solid fa-arrow-right"
+                                        style="vertical-align: middle;"></i> Learn More <i
+                                        class="fa-solid fa-arrow-right" style="vertical-align: middle;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container position-relative">
+            <div class="bg-secondary2-divider"></div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="first-sec">
+            <div class="container px-4 px-md-0">
+                <div class="row justify-content-between">
+                    <div class="col-lg-4 col-md-8 mx-auto mb-5 mb-lg-0"  data-aos="fade-up" data-aos-duration="500">
+                        <h1 class="footer-header heta-header mb-5">TIME TO MOVE
+                            ON TO INDIVIDUAL SOLUTIONS.</h1>
+                        <a href="index.html" class="logo">vilansec <span class="dot">.</span></a>
+                    </div>
+                    <div class="col-lg-4 col-md-8 mx-auto mb-5 mb-lg-0" data-aos="fade-up" data-aos-duration="800">
+                        <p class="footer-text-header mb-4">CONTACT US</p>
+                        <div class="footer-linktext-holder">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fa-solid fa-location-dot me-4 footer-icon"></i>
+                                <p class="footer-text">
+                                    27 Division St, New York, NY 10002, USA
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fa-solid fa-at me-4 footer-icon"></i>
+                                <div>
+                                    <a href="mailto:dadasd" class="footer-link d-block">vilansecex1@mail.com</a>
+                                    <a href="mailto:dadasd" class="footer-link d-block">vilansecex2@mail.com</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-phone me-4 footer-icon"></i>
+                                <div>
+                                    <a href="tel:48247 432" class="footer-link d-block">+91 82231 31313</a>
+                                    <a href="tel:48247 432" class="footer-link d-block">+91 87645 94833</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-8 mx-auto" data-aos="fade-up" data-aos-duration="1200">
+                        <p class="footer-text-header mb-4">subscribe</p>
+                        <div class="footer-linktext-holder">
+                            <div class="d-flex align-items-center mb-3">
+                                <p class="footer-text">
+                                    Stay always in touch! Subscribe to our newsletter.
+                                </p>
+                            </div>
+                            <div class="footer-input-holder">
+                                <input type="email" name="mail" placeholder="mail" class="footer-input mb-2 border-0">
+                                <a href="index.html" class="vilansec-btn1">subscribe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second-sec p-4">
+            <div class="d-md-flex container justify-content-between align-items-center">
+                <div class="copyright-content">
+                    <p class="copyright-text mb-3 m-md-0">
+                        Copyright © 2021 Zeptech by <a href="#">vilansec. </a>All Rights Reserved.
+                    </p>
+                </div>
+                <div class="copyright-icon-container d-flex justify-content-center">
+                    <a href="#" class="fa-brands fa-twitter copyright-icon mx-2"></a>
+                    <a href="#" class="fa-brands fa-facebook-f copyright-icon mx-2"></a>
+                    <a href="#" class="fa-brands fa-linkedin-in copyright-icon mx-2"></a>
+                    <a href="#" class="fa-brands fa-instagram copyright-icon mx-2"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="go-top-btn"><i class="fa-solid fa-up-long"></i></button>
+
+    <!-- BOOTSTRAP CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
+        integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
+        crossorigin="anonymous"></script>
+
+    <!-- jquery CDN -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- owl carousel CDN -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- scrolling animation cdn -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+
+        // owl carousel script
+
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel();
+            $(".owl-carousel2").owlCarousel();
+        });
+
+        var carousel_height = '';
+        var carousel_height2 = '';
+
+        if (screen.width < 767) {
+            carousel_height += 4;
+            carousel_height2 += 1;
+        }else if(screen.width < 1023){
+            carousel_height2 += 2;
+        }
+        else {
+            carousel_height += 6;
+            carousel_height2 += 3;
+        }
+
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: carousel_height,
+            loop: true,
+            margin: 0,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true
+        });
+        $('.owl-carousel2').owlCarousel({
+            items: carousel_height2,
+            loop: true,
+            margin: 100,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true
+        })
+        $('.owl-nav').hide();$('.owl-dots').hide()
+    </script>
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
